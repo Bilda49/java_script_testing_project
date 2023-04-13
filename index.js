@@ -3,7 +3,6 @@ const { Warrior } = require("./func/warrior.js");
 const { Tank } = require("./func/tank.js");
 const { Zoltar } = require("./func/zoltar.js");
 
-const { animate } = require("./func/story.js");
 const inquirer = require("inquirer");
 
 let enemyZoltar = new Zoltar("Zoltar");
